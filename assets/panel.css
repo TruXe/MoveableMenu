@@ -1,0 +1,48 @@
+body {
+    background-color: #444;
+    color: white;
+}
+
+
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: rgb(10, 10, 10);
+    text-align: left;
+    border: 1px solid #2a73c2;
+    color: white;
+    width: 500px;
+    height: 300px;
+  }
+
+  .inner{
+      margin: 8px;
+
+  }
+
+  .btnDC {
+
+    color: white;
+    background-color: #2a73c2;
+    border: 1px solid #2a73c2;
+    
+  }
+
+  .btnYT {
+
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+
+  }
+  
+
+  #mydivheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2a73c2;
+    color: #fff;
+    
+  }
